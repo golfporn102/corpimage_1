@@ -1,0 +1,23 @@
+<!DOCTYE html>
+<html>
+    <head>
+         <script src='//ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.6/angular.min.js'></script>
+         <link  rel="stylesheet" type="text/css" href="index.css" />
+         <script src='index.js'></script>
+         <script src='g-crop/crop.js'></script>
+         <script src='g-crop/directive.js'></script>
+    </head>
+    
+    <title> Cropper image</title>
+    
+     <body ng-app='app' ng-controller="appCtrl">
+       
+        <div>
+            <img ng-src='{{image}}'>
+            <g-cropimage file='file'></g-cropimage>
+        </div>
+       
+        
+    </body>
+    
+</html>

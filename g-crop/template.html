@@ -1,0 +1,19 @@
+{{active}}
+<input ng-hide="active" type="file" id="g-corpfile">
+
+<div ng-show="active" class="g-corp noselect">
+    <div class="imageBox">
+        <img src = ''>
+        <div class="thumbBox"></div>
+    </div>
+
+    <div class="action">
+        <button ng-click="cropImage()" >Cope</button>
+        <button ng-click="zoomIn()">+</button>
+        <button ng-click="zoomOut()">-</button>
+    </div>
+        
+    <div class="cropped">
+
+    </div>
+</div>
